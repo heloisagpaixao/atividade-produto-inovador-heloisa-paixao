@@ -1,7 +1,16 @@
 * {
-    margin: 0.10rem;
-    padding: 0.10rem;
+    margin: 0.1rem;
+    padding: 0.1rem;
     box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, rgb(255, 189, 89), rgb(255, 158, 12))
+}
+
+nav {
+    background-color: rgb(255, 226, 180);
+    text-align: center;
 }
 
 body {
@@ -9,17 +18,32 @@ body {
     font-family: "Elms Sans", sans-serif;
 }
 
+aside {
+    background-color: rgb(255, 235, 205);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#galeria,
 #hero {
     text-align: center;
     background-color: rgb(255, 235, 205);
-    color: rgb(235, 102, 0);
+    color: rgb(80, 50, 0);
 }
 
-#comprar {
+#hero::first-letter {
+    color: rgb(180, 108, 13);
+}
+
+#especificacoes{
     text-align: center;
 }
 
 #especificacoes img {
+    text-align: center;
     max-width: 20rem;
 }
 
@@ -28,12 +52,18 @@ body {
     max-width: 20rem;
 }
 
+#comprar {
+    text-align: center;
+}
+
 .botao-comprar {
     color: rgb(75, 29, 0);
     background-color: rgb(255, 215, 170);
+    border: 0.1rem solid rgb(128, 73, 0)
 }
 
 h1 {
+    font-size: 2.5rem;
     text-align: center;
     background-color: rgb(255, 235, 205);
     color: rgb(255, 111, 0);
@@ -44,12 +74,16 @@ h2 {
     color: rgb(195, 85, 0);
 }
 
-footer {
-    background-color: rgb(255, 235, 205);
-    text-align: center;
+p{
+    font-size: 1.1rem;
+}
+
+ul{
+    font-size: 1.3rem;
 }
 
 img {
+    display: flex;
     max-width: 100%;
     height: auto;
     display: block;
@@ -58,10 +92,16 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
 a {
     padding: auto;
     color: rgb(255, 136, 0);
     text-decoration: none;
+
 }
 
 a:visited {
@@ -72,7 +112,7 @@ a:active {
     color: rgb(255, 0, 0);
 }
 
-table{
+table {
     border: 1px solid rgb(160, 70, 0);
     border-spacing: 5px;
     margin-left: auto;
@@ -84,24 +124,27 @@ th {
     font-weight: bold;
 }
 
-td{
+td {
     padding: 10px;
     text-align: left;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #ffe2b4;
+    background-color: rgb(255, 226, 180);
 }
 
-aside{
-    background-color: rgb(255, 235, 205);
-    text-align: center;
+h2+p {
+    text-indent: 20px;
 }
 
-h2 + p {
-  text-indent: 20px;
+section>p {
+    line-height: 1;
 }
 
+input[type="email"] {
+    border: 0.2rem solid rgb(128, 73, 0);
+}
 
-
-html { scroll-behavior: smooth; }
+html {
+    scroll-behavior: smooth;
+}
