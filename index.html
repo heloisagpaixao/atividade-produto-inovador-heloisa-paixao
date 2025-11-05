@@ -5,8 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto Inovador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
+
+<br>
 
 <body>
     <header>
@@ -15,14 +22,16 @@
         <nav>
             <p>Navegue pelo site aqui!</p>
             <ul>
-                <li><a href="#hero" target="_blank"><strong>O que é</strong></a> esse novo produto?</li>
-                <li><a href="#especificacoes" target="_blank"><strong>Especificações</strong></a> para o uso do produto.
+                <li><a href="#hero"><strong>O que é</strong></a> esse novo produto?</li>
+                <li><a href="#especificacoes"><strong>Especificações</strong></a> para o uso do produto.
                 </li>
                 <li><a href="#galeria"> <strong>Galeria</strong></a> de sabores e tipos do produto. </li>
                 <li><a href="#comprar"> <strong>Compre aqui</strong></a> seu novo produto exclusivo! </li>
             </ul>
         </nav>
     </header>
+
+<br>
 
     <main>
         <section id="hero">
@@ -45,6 +54,8 @@
                 alt="Imagem de três sacos de bala com os respectivos nomes, da esquerda para a direita, café da manhã, almoço e jantar.">
         </section>
 
+<br>
+
         <section id="especificacoes">
             <h2>Especificações Técnicas</h2>
             <table>
@@ -66,11 +77,13 @@
                     <td>Testes e aprovações</td>
                     <td>Nosso produto foi testado e aprovado por diversos cientistas. Nossos laboratórios são 100%
                         higienizados e completos em questão de materiais.
-                    <img src="src/css/img/img_laboratorio-honka.png" alt="Imagem de uma das salas do Laboratório Honka, com uma pesquisadora fazendo testes do produto."></td>
+                        <img src="src/css/img/img_laboratorio-honka.png"
+                            alt="Imagem de uma das salas do Laboratório Honka, com uma pesquisadora fazendo testes do produto.">
+                    </td>
                 </tr>
             </table>
         </section>
-
+<br>
         <section id="galeria">
             <h2>Galeria de Imagens</h2>
             <img src="src/css/img/img_cafe-da-manha.png"
@@ -80,11 +93,20 @@
             <img src="src/css/img/img_jantar.png"
                 alt="Imagem de um saco de balas com o nome jantar e balas em formatos diversos.">
         </section>
-
+<br>
         <section id="comprar">
             <h2>Garanta já o seu!!</h2>
+            <form>
+                <p>
+                    <label for="email_contato">Seu email:</label>
+                    <input type="email" id="email_contato" name="email_contato" required>
+                </p>
+                <p>
+                    <button type="submit" class="botao-comprar"> Comprar agora! </button>
+                </p>
+            </form>
         </section>
-
+<br>
         <aside>
             <h3>Recursos adicionais</h3>
             <ul>
@@ -95,7 +117,7 @@
         </aside>
 
     </main>
-
+<br>
     <footer>
         <p>© 2025 Honka Produtos. Todos os direitos reservados.</p>
     </footer>

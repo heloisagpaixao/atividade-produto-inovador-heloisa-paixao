@@ -1,0 +1,107 @@
+* {
+    margin: 0.10rem;
+    padding: 0.10rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 249, 242);
+    font-family: "Elms Sans", sans-serif;
+}
+
+#hero {
+    text-align: center;
+    background-color: rgb(255, 235, 205);
+    color: rgb(235, 102, 0);
+}
+
+#comprar {
+    text-align: center;
+}
+
+#especificacoes img {
+    max-width: 20rem;
+}
+
+#galeria img {
+    text-align: center;
+    max-width: 20rem;
+}
+
+.botao-comprar {
+    color: rgb(75, 29, 0);
+    background-color: rgb(255, 215, 170);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(255, 235, 205);
+    color: rgb(255, 111, 0);
+}
+
+h2 {
+    background-color: rgb(255, 235, 205);
+    color: rgb(195, 85, 0);
+}
+
+footer {
+    background-color: rgb(255, 235, 205);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    padding: auto;
+    color: rgb(255, 136, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(106, 5, 114);
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}
+
+table{
+    border: 1px solid rgb(160, 70, 0);
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td{
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffe2b4;
+}
+
+aside{
+    background-color: rgb(255, 235, 205);
+    text-align: center;
+}
+
+h2 + p {
+  text-indent: 20px;
+}
+
+
+
+html { scroll-behavior: smooth; }
