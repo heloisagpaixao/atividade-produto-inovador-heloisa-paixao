@@ -145,6 +145,4 @@ input[type="email"] {
     border: 0.2rem solid rgb(128, 73, 0);
 }
 
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
